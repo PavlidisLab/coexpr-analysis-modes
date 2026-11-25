@@ -1,4 +1,4 @@
-# Supplementary Table 4. Sensitivity analyses at the 1% edge threshold. For the matched-sample rows, N OR<=1 is the mean over draws.
+# Supplemental Table S4. Sensitivity analyses at the 1% edge threshold. For the matched-sample rows, N OR<=1 is the mean over draws.
 Analysis	Reviewer point	xCell replicability, mean OR (N OR<=1)	xSubject replicability, mean OR (N OR<=1)	xCell to xSubject preservation, mean OR (N OR<=1)
 Submitted analysis (baseline)	–	37.8 (0)	6.48 (1)	11.1 (2)
 Matched sample size, cells per subject capped at N_subj (S2; 50 draws)	R1 M1	10.4 (0.34)	–	6.51 (3)

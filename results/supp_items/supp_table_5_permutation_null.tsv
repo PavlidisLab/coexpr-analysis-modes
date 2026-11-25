@@ -1,4 +1,4 @@
-# Supplementary Table 5. Comparison with a permutation null (source A2_permutation_null).
+# Supplemental Table S5. Comparison with a permutation null (source A2_permutation_null).
 Level and sample	N groups x draws	Draws	Permutations	Mean null maximum r	Positive r above null max, mean %	Positive r above null max, max %	Negative r below null min, mean %	Positive r above null 99.9% quantile, mean %
 xCell, all cells (39 groups)	39	1	10	0.1484	0.3743	5.368	0.9008	2.88
 xSubject (39 groups)	39	1	50	0.9339	0.02158	0.4566	0.0318	9.482

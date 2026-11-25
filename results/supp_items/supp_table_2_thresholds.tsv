@@ -1,4 +1,4 @@
-# Supplementary Table 2. Edge-threshold sensitivity (source A6_thresholds/results.tsv).
+# Supplemental Table S2. Edge-threshold sensitivity (source A6_thresholds/results.tsv).
 Comparison	Edge threshold	N comparisons	Mean OR	Median OR	Min OR	Max OR	N OR<=1	Mean F1	Mean Jaccard
 xCell replicability	0.5%	216	85.79	38.37	1.473	693.5	0	0.1513	0.0886
 xCell replicability	1%	216	37.78	18.14	1.012	290.7	0	0.1457	0.08451

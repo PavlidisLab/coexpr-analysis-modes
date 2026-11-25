@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Supplementary Figure 6 (draft): permutation-null comparison per data group (R1 M2).
+"""Supplemental Fig S4: permutation-null comparison per data group (R1 M2).
 Input : ../../results/A2_permutation_null/results_{full,S2,S1,xsubject,xbulk}.tsv
-Output: out/Supplementary_Figure_6.{pdf,png}; input sha256 appended to out/manifest_fig6.json
+Output: out/Supplemental_Fig_S4.{pdf,png}; input sha256 appended to out/manifest_figS4.json
 """
 import csv, json, hashlib, statistics as st, random
 from collections import defaultdict
@@ -95,7 +95,7 @@ assert mean(LEVELS[0][1], "frac_pos_above_null_max") > mean(LEVELS[3][1], "frac_
 assert mean(LEVELS[3][1], "frac_pos_above_null_q0.999") > mean(LEVELS[0][1], "frac_pos_above_null_q0.999")
 assert min(r["null_max_overall"] for r in LEVELS[2][1]) > 0.99 and mean(LEVELS[3][1], "null_max_overall") > 0.8
 assert max(r["null_max_overall"] for r in LEVELS[0][1]) < 0.5
-fig.savefig(OUT / "Supplementary_Figure_6.pdf", bbox_inches="tight")
-fig.savefig(OUT / "Supplementary_Figure_6.png", dpi=600, bbox_inches="tight")
-(OUT / "manifest_fig6.json").write_text(json.dumps({"inputs_sha256": SHA}, indent=1))
+fig.savefig(OUT / "Supplemental_Fig_S4.pdf", bbox_inches="tight")
+fig.savefig(OUT / "Supplemental_Fig_S4.png", dpi=600, bbox_inches="tight")
+(OUT / "manifest_figS4.json").write_text(json.dumps({"inputs_sha256": SHA}, indent=1))
 print("ok")

@@ -1,7 +1,7 @@
 {
  "built": "2026-11-25T10:10:48",
  "builder": "make_supp_items.py",
- "builder_sha256": "82730b8fdc92c7a6bf6e18b540a4dd0bbc18f9ba2ca520d6d4d58de7496c9306",
+ "builder_sha256": "94018386a4a4320206f549c623bff8b21b338a3fa5ae4a798ec78aea4266bae0",
  "data_version": "FRX xcell-xbulk-revision, final 2026-10-20 (frink:/home/paul/xcell-xbulk-revision), Eric Chu pipeline 041_CH4_FINAL",
  "inputs_sha256": {
   "A6_thresholds/results.tsv": "cd3bf6a062f6cb1f177f10165a209eecc7b9540f882ac7b2bbf6b22ceff73585",
@@ -79,12 +79,12 @@
   }
  },
  "outputs_sha256": {
-  "Supplementary_Figure_5.pdf": "4f0a0099de14da06dbba8d45cbb8b6c268e801d50d8e5baea9339e32cf9c19d5",
-  "Supplementary_Figure_5.png": "ff8d67930d8a35ba3e0462e7980829507192ace5bef9b5bd7fb329e4d566559b",
-  "supp_table_2_thresholds.tsv": "05d98798949e8b62d0bcd542c5a44f13eec971e88b9918237cfd99a165ccd754",
-  "supp_table_3_prf_jaccard.tsv": "e08b7b9b394c34c2aefd8d8bfaee4aa2b7ba317bdf12abd480d8d81ccbf6873a",
-  "supp_table_4_sensitivity.tsv": "dadd227908796bbf158315cc93a3160f6c82ac8f0b759f7fa99c17ddb941b173",
-  "supp_table_5_permutation_null.tsv": "19c43c9ccfc755fc7999b33d33acc25d953a39f8d455bfc61ac860b7b494ff23",
+  "Supplemental_Fig_S3.pdf": "4f0a0099de14da06dbba8d45cbb8b6c268e801d50d8e5baea9339e32cf9c19d5",
+  "Supplemental_Fig_S3.png": "ff8d67930d8a35ba3e0462e7980829507192ace5bef9b5bd7fb329e4d566559b",
+  "supp_table_2_thresholds.tsv": "9b426d09dc0b834d72ab32d03208e31079556203248575892e4b6f74ddeff8c3",
+  "supp_table_3_prf_jaccard.tsv": "35a75f4f4afbd656b340ca9eb79f12a6ffa0a8edb183467acfb781210ae97bf4",
+  "supp_table_4_sensitivity.tsv": "f5aa3cb7394c66c724201ae55b1120b6cdc8875d7b2159015e58cf84ed342918",
+  "supp_table_5_permutation_null.tsv": "b0d13586c5085264d042d112551541de94b40037d501698eea8835c5da9a0fee",
   "numbers.json": "277c180f1b949b15a94b0b4b4e0a501bbb2ef0ad7d3354d6a9744e58f2a88d99"
  }
 }

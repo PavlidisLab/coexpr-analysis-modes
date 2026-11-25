@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Build every number, supplementary table and Supplementary Figure 5 for the
+"""Build every number, supplemental table and Supplemental Fig S3 for the
 Genome Research revision (GENOME/2026/282552) from the FRX result files.
 
 Input : ../../results/  (summary tables of the revision analyses; see code/revision_analyses)
-Output: out/numbers.json, out/supp_table_{2,3,4,5}.tsv, out/Supplementary_Figure_5.{pdf,png},
+Output: out/numbers.json, out/supp_table_{2,3,4,5}.tsv, out/Supplemental_Fig_S3.{pdf,png},
         out/manifest.json (sha256 + timestamps of every input; data_version)
 
 No number is typed by hand: the manuscript, supplement and response-letter text
@@ -16,7 +16,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[1]
 FRX = REPO / "results"
-OUT = REPO / "results" / "supp_items"  # numbers.json, Supplementary Tables 2-5, Supplementary Figure 5, manifest.json
+OUT = REPO / "results" / "supp_items"  # numbers.json, Supplemental Tables S2-S5, Supplemental Fig S3, manifest.json
 OUT.mkdir(exist_ok=True)
 USED = {}  # input path -> sha256
 
@@ -123,7 +123,7 @@ for an, ref, test, label in [("replicability", "sc", "sc", "xCell replicability"
     t3.append([label, m["n"], m["odds_ratio"], m["precision"], m["recall"], m["F1"], m["jaccard"],
                m["jaccard_min"], m["jaccard_max"]])
 
-# ---------------------------------------------------------------- sensitivity analyses at 1% (Supp Table 4)
+# ---------------------------------------------------------------- sensitivity analyses at 1% (Supplemental Table S4)
 def s_from(rel, an, spec_ref, frac=0.01, universe="test_group_genes", spec_key="ref_spec"):
     rs = rows(rel)
     r = [x for x in rs if x["analysis"] == an and x[spec_key] == spec_ref and x["universe"] == universe
@@ -237,10 +237,10 @@ def wtsv(name, header, body, caption):
 
 wtsv("supp_table_2_thresholds.tsv",
      ["Comparison", "Edge threshold", "N comparisons", "Mean OR", "Median OR", "Min OR", "Max OR", "N OR<=1", "Mean F1", "Mean Jaccard"],
-     t2, "Supplementary Table 2. Edge-threshold sensitivity (source A6_thresholds/results.tsv).")
+     t2, "Supplemental Table S2. Edge-threshold sensitivity (source A6_thresholds/results.tsv).")
 wtsv("supp_table_3_prf_jaccard.tsv",
      ["Comparison", "N comparisons", "Mean OR", "Mean precision", "Mean recall", "Mean F1", "Mean Jaccard", "Min Jaccard", "Max Jaccard"],
-     t3, "Supplementary Table 3. Agreement measures at the 1% threshold (source A5_prf_jaccard/results.tsv).")
+     t3, "Supplemental Table S3. Agreement measures at the 1% threshold (source A5_prf_jaccard/results.tsv).")
 
 def cell(s, nan_note=False):
     if s is None:
@@ -284,14 +284,14 @@ t4 = [
 wtsv("supp_table_4_sensitivity.tsv",
      ["Analysis", "Reviewer point", "xCell replicability, mean OR (N OR<=1)", "xSubject replicability, mean OR (N OR<=1)",
       "xCell to xSubject preservation, mean OR (N OR<=1)"], t4,
-     "Supplementary Table 4. Sensitivity analyses at the 1% edge threshold. For the matched-sample rows, N OR<=1 is the mean over draws.")
+     "Supplemental Table S4. Sensitivity analyses at the 1% edge threshold. For the matched-sample rows, N OR<=1 is the mean over draws.")
 wtsv("supp_table_5_permutation_null.tsv",
      ["Level and sample", "N groups x draws", "Draws", "Permutations", "Mean null maximum r",
       "Positive r above null max, mean %", "Positive r above null max, max %", "Negative r below null min, mean %",
       "Positive r above null 99.9% quantile, mean %"], t5,
-     "Supplementary Table 5. Comparison with a permutation null (source A2_permutation_null).")
+     "Supplemental Table S5. Comparison with a permutation null (source A2_permutation_null).")
 
-# ---------------------------------------------------------------- Supplementary Figure 5
+# ---------------------------------------------------------------- Supplemental Fig S3
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -364,8 +364,8 @@ for a, l in zip(axs, "ABC"):
     a.text(-0.2, 1.04, l, transform=a.transAxes, fontsize=10, fontweight="bold", color=INK)
     a.spines[["top", "right"]].set_visible(False)
     a.grid(axis="y", color=GRID, lw=0.5); a.set_axisbelow(True)
-fig.savefig(OUT / "Supplementary_Figure_5.pdf", bbox_inches="tight")
-fig.savefig(OUT / "Supplementary_Figure_5.png", dpi=600, bbox_inches="tight")
+fig.savefig(OUT / "Supplemental_Fig_S3.pdf", bbox_inches="tight")
+fig.savefig(OUT / "Supplemental_Fig_S3.png", dpi=600, bbox_inches="tight")
 
 # ---------------------------------------------------------------- manifest
 metas = {}

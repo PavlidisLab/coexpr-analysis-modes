@@ -21,24 +21,23 @@ pairs are taken as edges. Agreement is the Fisher odds ratio between edge sets: 
 ```
 figures/
   main/                 Figures 1-6 as published
-  supplementary/        Supplementary Figures 1-6 (5 and 6 are new in R1, with PDF versions)
-  extended_data/        Extended Data Figures 1-7
+  supplemental/         Supplemental Figs S1-S13 (S3 and S4 are new in R1, with PDF versions)
   pipeline_panels/      individual panels as written by the original pipeline
 code/
-  original_pipeline/    the original R pipeline: networks, results, Figures 2-5, Supplementary Figure 1, Extended Data
-  snap_case_study/      SNAP case study (Ling et al. 2024): Figure 6, Supplementary Figure 4
-  supp_figures/         scripts that build Supplementary Figures 5-6 and Supplementary Tables 2-5
+  original_pipeline/    the original R pipeline: networks, results, Figures 2-5, Supplemental Figs S2 and S5-S11
+  snap_case_study/      SNAP case study (Ling et al. 2024): Figure 6, Supplemental Fig S13
+  supp_figures/         scripts that build Supplemental Figs S3-S4 and Supplemental Tables S2-S5
   revision_analyses/    the R1 sensitivity analyses (A1-A10) and the baseline reproduction
 results/
   A1_* ... A10_*        summary tables of each sensitivity analysis (each folder has a README)
   eric_baseline/        reproduction of the submitted results from the original coexpression matrices
   eric_saved_tables/    the original pipeline's saved Fisher tables, exported to TSV
-  supp_items/           numbers.json, Supplementary Tables 2-5 (TSV), manifest.json with input sha256
+  supp_items/           numbers.json, Supplemental Tables S2-S5 (TSV), manifest.json with input sha256
 ```
 
 See [`FIGURES.md`](FIGURES.md) for which file and which script belongs to each figure.
 
-## Regenerating the new supplementary figures and tables
+## Regenerating the new supplemental figures and tables
 
 These need only the tables in `results/` (Python 3 with matplotlib; no other data):
 
@@ -46,8 +45,8 @@ These need only the tables in `results/` (Python 3 with matplotlib; no other dat
 bash code/supp_figures/make_figures.sh
 ```
 
-This rewrites `figures/supplementary/Supplementary_Figure_{5,6}.{pdf,png}` and
-`results/supp_items/` (Supplementary Tables 2-5 and every number cited in the revised text,
+This rewrites `figures/supplemental/Supplemental_Fig_S{3,4}.{pdf,png}` and
+`results/supp_items/` (Supplemental Tables S2-S5 and every number cited in the revised text,
 in `numbers.json`). Each script checks the qualitative statements made in the figure captions
 and stops if the data no longer support them. `results/supp_items/manifest.json` records the
 sha256 of every input table.
@@ -84,7 +83,7 @@ odds ratios and all 39 preservation odds ratios match the saved tables).
 
 The single-cell datasets (Lau 2020, Lim 2022, Nagy 2020, Pineda 2021, Ramos 2022,
 ROSMAP/Mathys 2019, Velmeshev 2019) and the ROSMAP and Velmeshev bulk data are public; see
-Supplementary Table 1 of the paper for sources and accessions.
+Supplemental Table S1 of the paper for sources and accessions.
 
 ## Citation
 
