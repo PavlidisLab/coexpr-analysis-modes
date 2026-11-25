@@ -20,7 +20,7 @@ pairs are taken as edges. Agreement is the Fisher odds ratio between edge sets: 
 
 ```
 figures/
-  main/                 Figures 1-6 as published (Figure 6 also as SVG)
+  main/                 Figures 1-6 as published
   supplementary/        Supplementary Figures 1-6 (5 and 6 are new in R1, with PDF versions)
   extended_data/        Extended Data Figures 1-7
   pipeline_panels/      individual panels as written by the original pipeline

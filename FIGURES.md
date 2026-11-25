@@ -3,8 +3,16 @@
 Published images (`figures/main`, `figures/supplementary`, `figures/extended_data`) were taken
 unchanged from the submitted manuscript and supplement. Most were assembled from separate panels;
 the panels as written by the original pipeline are in `figures/pipeline_panels/<analysis>/`.
-Files ending in `.emf` are vector images exported from Word; open them in Word or PowerPoint
-(GitHub cannot preview them).
+Files ending in `.emf` are vector images exported from Word (open them in Word or PowerPoint);
+each has a PNG copy next to it.
+
+Resolution. Most images are the versions embedded in the submitted Word files (about 160-260 dpi
+at print size). Higher-resolution versions replace them where a source exists: Figure 6 was
+rendered at 600 dpi from the vector graphics in the submitted PDF; Supplementary Figure 4 and
+Extended Data Figure 2 are the images embedded in the submitted PDF (about 380 and 640 dpi);
+Extended Data Figures 5-7 are the original pipeline PNGs; Supplementary Figures 5 and 6 are
+600 dpi PNGs with vector PDFs. The panels in `figures/pipeline_panels/` (mostly EPS, vector) can
+be used to rebuild the other figures at any resolution.
 
 Code paths: `original_pipeline/` = `code/original_pipeline/` (R),
 `snap/` = `code/snap_case_study/`, `supp/` = `code/supp_figures/`.
