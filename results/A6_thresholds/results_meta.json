@@ -1,0 +1,11 @@
+{
+ "script": "/home/paul/xcell-xbulk-revision/eric/make_A5_A6_A9.py",
+ "script_sha256": "09ccdb1a1e8a01b277ae81ae5c1bf4103659dfda4dda414a98b4ac1dcf73fbc6",
+ "inputs": {
+  "all_comparisons.tsv": "39863e63a2616ab9ca888d1769556cc5cf0c8aefa2c8e6db00da837466070222"
+ },
+ "timestamp": "2026-10-15T15:09:03.195054",
+ "source": "Eric Chu 041_CH4_FINAL saved matrices (read-only)",
+ "seed": "n/a (deterministic)",
+ "definition": "positive = rank-normalised coexpression >= 1-frac (frac 0.005,0.01,0.05,0.10), lower triangle; raw-correlation version in A6_raw"
+}

@@ -1,0 +1,4 @@
+table	n_saved	n_matched	max_abs_log_OR_diff	max_abs_a_diff	n_OR_gt1_mine	n_OR_gt1_saved
+sc_repro	216	216	4.440892098500626e-15	0.0	216	216
+sbj_repro	216	216	3.9968028886505635e-15	0.0	215	215
+sc_sbj_preservation	39	39	3.9968028886505635e-15	0.0	37	37

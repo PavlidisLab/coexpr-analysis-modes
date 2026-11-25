@@ -1,0 +1,90 @@
+{
+ "built": "2026-11-25T10:10:48",
+ "builder": "make_supp_items.py",
+ "builder_sha256": "82730b8fdc92c7a6bf6e18b540a4dd0bbc18f9ba2ca520d6d4d58de7496c9306",
+ "data_version": "FRX xcell-xbulk-revision, final 2026-10-20 (frink:/home/paul/xcell-xbulk-revision), Eric Chu pipeline 041_CH4_FINAL",
+ "inputs_sha256": {
+  "A6_thresholds/results.tsv": "cd3bf6a062f6cb1f177f10165a209eecc7b9540f882ac7b2bbf6b22ceff73585",
+  "A1_matched_sample/summary_S1.tsv": "11f2a000edc06e1158134c1a6d7f8e6e86cffa770278d2b03f69e872bb014ded",
+  "A1_matched_sample/summary_S2.tsv": "d6f76655a689ff59b69f01b27ccdebac7d04fef51fb2877743284b5e4c9b7ff6",
+  "A2_permutation_null/results_full.tsv": "fc500e38abf836ea2d9bfce768c89ea4209b2cd8c82fd63acf84ad40ea1e3872",
+  "A5_prf_jaccard/results.tsv": "2b48b7b99e48afe95acf3d236597e1a27630bee3a47ec9957d9ba25878e346b1",
+  "A4_xsubject_pseudobulk/summary.tsv": "df5475bd4b71d5def587b7b872fe1f7640b2f4b16ac3904390d12517d611377c",
+  "A7_no_imputation/results.tsv": "dfef33c791105403354d7274d39d5b9884a7caf51045c4291093c36f642575cd",
+  "A8_weighted/results.tsv": "5622a9c9dab674a4b4737f94edd75487abbc57c82a4ef7ac34d99eabe7b0f06e",
+  "A6_raw/results.tsv": "2bad831aa352c63eb1f3ffe6e6606f0f1481d60b4827a84a1ab3fa81deb2814d",
+  "A3_expression_strata/summary_stratified_baseline_edges.tsv": "b14eab9a3940d8b0ac603b457d1a1e5bfaa9edf95cad07935a2313e7208b530a",
+  "A3_expression_strata/summary_high_recomputed.tsv": "c398e478dad90b44e2caf3eb96b25589f405842ad1fe603946538c104e4a1464",
+  "A3_expression_strata/group_strata_counts.tsv": "5b54a7516ae689e0d8c4f8889f3f512223f82de3558128cc2cb63f66583eda28",
+  "A3_expression_strata/size_correlations.tsv": "3eb45ae65a16a468718633af225968637aa830d55f545fbc2b039f7be537566c",
+  "A10_common_geneset/summary_by_level.tsv": "10b91d5b6cd148864472225742381c4f94372e01d33954bf4bd9f1af78b35bd4",
+  "A9_or_le1/min_OR_summary.tsv": "2a173b68dcb218e5eb30587a7ea5d5ca68868e97c2b013343832cd5644a1cff7",
+  "A2_permutation_null/results_xsubject.tsv": "71383d0f4652eecccb06d70e43f91c62cf791efdd9aaf6d716dfc65d8a26718b",
+  "A2_permutation_null/results_S2.tsv": "5c55714636cddbe152ee3b45544fe332b984d345412b2bb1e82ea23d3efa3b7a",
+  "A2_permutation_null/results_S1.tsv": "6f16a119f964de05012df237c1c684201f89d0f43e5c7377f6e525ebed60aa91",
+  "A2_permutation_null/results_xbulk.tsv": "f8481463c464f4c153213cd10b0eb30b1cb35fb5bef6fe67016482d64bced881",
+  "A_bulk_check/results.tsv": "00613cefb2ad0ea7b8acf7e64f5199322c489f65ff8482041810c31e18ff6639"
+ },
+ "input_meta": {
+  "A1_matched_sample/results_S1_meta.json": {
+   "timestamp": "2026-10-15T19:48:07.923690",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_a1_compare.py",
+   "script_sha256": "4df5fa753427b3eb39c80f2d6b2523eaed3efc4a37614b5194de41b8dfc07b27",
+   "seed": 20261015
+  },
+  "A1_matched_sample/results_S2_meta.json": {
+   "timestamp": "2026-10-17T02:04:35.308213",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_a1_compare.py",
+   "script_sha256": "4df5fa753427b3eb39c80f2d6b2523eaed3efc4a37614b5194de41b8dfc07b27",
+   "seed": 20261015
+  },
+  "A4_xsubject_pseudobulk/results_meta.json": {
+   "timestamp": "2026-10-15T15:53:35.461309",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_compare.py",
+   "script_sha256": "9361453a177ead7d1d0f957d32a6e836bc6e23a42efc2e0413dda553b7435a35",
+   "seed": "n/a (deterministic)"
+  },
+  "A5_prf_jaccard/results_meta.json": {
+   "timestamp": "2026-10-15T15:09:03.138622",
+   "script": "/home/paul/xcell-xbulk-revision/eric/make_A5_A6_A9.py",
+   "script_sha256": "09ccdb1a1e8a01b277ae81ae5c1bf4103659dfda4dda414a98b4ac1dcf73fbc6",
+   "seed": "n/a (deterministic)"
+  },
+  "A6_raw/results_meta.json": {
+   "timestamp": "2026-10-15T18:39:29.728608",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_compare.py",
+   "script_sha256": "9361453a177ead7d1d0f957d32a6e836bc6e23a42efc2e0413dda553b7435a35",
+   "seed": "n/a (deterministic)"
+  },
+  "A6_thresholds/results_meta.json": {
+   "timestamp": "2026-10-15T15:09:03.195054",
+   "script": "/home/paul/xcell-xbulk-revision/eric/make_A5_A6_A9.py",
+   "script_sha256": "09ccdb1a1e8a01b277ae81ae5c1bf4103659dfda4dda414a98b4ac1dcf73fbc6",
+   "seed": "n/a (deterministic)"
+  },
+  "A7_no_imputation/results_meta.json": {
+   "timestamp": "2026-10-15T18:32:05.803146",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_compare.py",
+   "script_sha256": "9361453a177ead7d1d0f957d32a6e836bc6e23a42efc2e0413dda553b7435a35",
+   "seed": "n/a (deterministic)"
+  },
+  "A8_weighted/results_meta.json": {
+   "timestamp": "2026-10-15T18:34:55.513570",
+   "script": "/home/paul/xcell-xbulk-revision/lib/eric_compare.py",
+   "script_sha256": "9361453a177ead7d1d0f957d32a6e836bc6e23a42efc2e0413dda553b7435a35",
+   "seed": "n/a (deterministic)"
+  },
+  "A_bulk_check/results_meta.json": {
+   "timestamp": "2026-10-16T20:53:44"
+  }
+ },
+ "outputs_sha256": {
+  "Supplementary_Figure_5.pdf": "4f0a0099de14da06dbba8d45cbb8b6c268e801d50d8e5baea9339e32cf9c19d5",
+  "Supplementary_Figure_5.png": "ff8d67930d8a35ba3e0462e7980829507192ace5bef9b5bd7fb329e4d566559b",
+  "supp_table_2_thresholds.tsv": "05d98798949e8b62d0bcd542c5a44f13eec971e88b9918237cfd99a165ccd754",
+  "supp_table_3_prf_jaccard.tsv": "e08b7b9b394c34c2aefd8d8bfaee4aa2b7ba317bdf12abd480d8d81ccbf6873a",
+  "supp_table_4_sensitivity.tsv": "dadd227908796bbf158315cc93a3160f6c82ac8f0b759f7fa99c17ddb941b173",
+  "supp_table_5_permutation_null.tsv": "19c43c9ccfc755fc7999b33d33acc25d953a39f8d455bfc61ac860b7b494ff23",
+  "numbers.json": "277c180f1b949b15a94b0b4b4e0a501bbb2ef0ad7d3354d6a9744e58f2a88d99"
+ }
+}

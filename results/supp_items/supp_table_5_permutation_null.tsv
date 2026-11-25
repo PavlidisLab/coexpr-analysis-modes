@@ -1,0 +1,9 @@
+# Supplementary Table 5. Comparison with a permutation null (source A2_permutation_null).
+Level and sample	N groups x draws	Draws	Permutations	Mean null maximum r	Positive r above null max, mean %	Positive r above null max, max %	Negative r below null min, mean %	Positive r above null 99.9% quantile, mean %
+xCell, all cells (39 groups)	39	1	10	0.1484	0.3743	5.368	0.9008	2.88
+xSubject (39 groups)	39	1	50	0.9339	0.02158	0.4566	0.0318	9.482
+xCell, cells per subject capped at N_subj (S2)	117	3	10	0.5083	0.02224	0.6824	0.04195	0.8039
+xCell, N_subj pooled cells (S1)	390	10	20	1	0	0	4.794e-06	0
+xBulk ROSMAP, 636 samples	1	1	20	0.8752	0.03285	0.03285	4.817	48.73
+xBulk ROSMAP, 48 samples	10	10	20	1	0	0	0.0001011	11.64
+xBulk Velmeshev, 41 samples	1	1	20	0.9999	4.456e-06	4.456e-06	8.619e-05	6.838

@@ -1,0 +1,9 @@
+{
+ "inputs_sha256": {
+  "results_xbulk.tsv": "f8481463c464f4c153213cd10b0eb30b1cb35fb5bef6fe67016482d64bced881",
+  "results_full.tsv": "fc500e38abf836ea2d9bfce768c89ea4209b2cd8c82fd63acf84ad40ea1e3872",
+  "results_S2.tsv": "5c55714636cddbe152ee3b45544fe332b984d345412b2bb1e82ea23d3efa3b7a",
+  "results_S1.tsv": "6f16a119f964de05012df237c1c684201f89d0f43e5c7377f6e525ebed60aa91",
+  "results_xsubject.tsv": "71383d0f4652eecccb06d70e43f91c62cf791efdd9aaf6d716dfc65d8a26718b"
+ }
+}

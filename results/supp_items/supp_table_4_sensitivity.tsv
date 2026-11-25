@@ -1,0 +1,21 @@
+# Supplementary Table 4. Sensitivity analyses at the 1% edge threshold. For the matched-sample rows, N OR<=1 is the mean over draws.
+Analysis	Reviewer point	xCell replicability, mean OR (N OR<=1)	xSubject replicability, mean OR (N OR<=1)	xCell to xSubject preservation, mean OR (N OR<=1)
+Submitted analysis (baseline)	–	37.8 (0)	6.48 (1)	11.1 (2)
+Matched sample size, cells per subject capped at N_subj (S2; 50 draws)	R1 M1	10.4 (0.34)	–	6.51 (3)
+Matched sample size, N_subj cells pooled, no subject step (S1; 50 draws)	R1 M1	1.16 (39)	–	1.55 (3.8)
+xSubject pseudobulk by summing raw counts	R1 M4	–	6.83 (0)	11 (2)
+xSubject pseudobulk by summing cell CPM	R1 M4	–	4.07 (13)	8.16 (3)
+xSubject, no log2 transform	R1 M4	–	12.4 (0)	13.7 (0)
+xSubject, no quantile normalization	R1 M4	–	5.66 (5)	9.47 (3)
+xSubject, no log2 transform and no quantile normalization	R1 M4	–	14.4 (0)	13.1 (0)
+xCell, no imputation of undetected genes	R1 m3; R2	37.2 (3)	–	11 (1)
+xCell, genes present in both groups only: median imputation / no imputation	R1 m3; R2	34.5 (0) / 34.6 (0)	–	–
+xCell, subjects weighted by cell number (ranks)	R1 m3	39.4 (1)	–	10.8 (1)
+xCell, subjects weighted by cell number (raw r)	R1 m3	43.5 (1)	–	11.2 (1)
+xCell, Fisher z, weighted by cell number	R1 m3	38.7 (8)	–	10.3 (1)
+xCell, raw per-subject r averaged, ranked once	R2	31.3 (3)	–	10.2 (2)
+Edges defined by sign (mean r > 0) instead of top 1%	R2	1.23 (19)	1.5 (0)	1.44 (0)
+Genes with mean UMI/cell >= 1 only: submitted edges restricted (all-gene reference in this universe: 34.5 / 5.7)	R1 M3	9.75 (0)	6.99 (10) [6 undefined]	39.5 (1)
+Genes with mean UMI/cell < 1 only: submitted edges restricted	R1 M3	45.8 (4)	6.55 (0)	14.8 (1)
+Genes with mean UMI/cell >= 1 only: networks recomputed	R1 M3	181 (4) [23 undefined]	20.6 (3) [20 undefined]	22.8 (0) [1 undefined]
+Common gene set per cell type (genes in >= 70% of datasets), networks recomputed	R1 M3	42.7 (0)	6.83 (0)	12.2 (0)

@@ -1,0 +1,1 @@
+A6 (rank-based part) on Eric Chu's matrices: thresholds top 0.5/1/5/10% (value >= 1-frac). results.tsv all comparisons; summary.tsv mean/median/min OR, # OR<=1, F1, Jaccard. Raw-correlation version: A6_raw (separate).

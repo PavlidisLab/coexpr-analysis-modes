@@ -1,0 +1,5 @@
+cell_type	reference_dataset	odds_ratio	n_genes_ref	n_ref_pos	n_test_pos
+inhibitory	lau	0.6073145842122022	9024	407118	407118
+oligodendrocyte	lau	0.9149538513917358	5756	165629	165629
+astrocyte	lau	1.1692992925925327	7123	253651	253651
+astrocyte	rosmap	2.4384808092322485	5451	148540	148540

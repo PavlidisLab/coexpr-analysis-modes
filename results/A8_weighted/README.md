@@ -1,0 +1,3 @@
+A8 (R1-m3): subject aggregation weighted by sample size, Eric's xCell definition (lib/eric_pass.py). Variants: x:A8_wrank = per-subject ranks (median-imputed as in Eric) averaged with weights = cells per subject;
+x:A8_r = cells-weighted mean of the raw per-subject Pearson r (undefined excluded), then ranked; x:A8_z = mean Fisher-z weighted by (cells-3), then ranked. Summary at 1% (mean OR): replicability std 37.8, wrank 39.4, r 43.5, z 38.7; preservation std 11.05, wrank 10.8, r 11.2, z 10.3.
+Weighting does not change the picture (xCell replicability 38-43; one to eight pairs <=1 depending on variant; z-weighting gives 8 pairs <=1).

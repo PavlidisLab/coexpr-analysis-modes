@@ -1,0 +1,30 @@
+scope	rule	genes
+cell type astrocyte (n datasets=6)	>=3 of 6 (50%)	7383
+cell type astrocyte (n datasets=6)	>=5 of 6 (70%)	5158
+cell type astrocyte (n datasets=6)	>=6 of 6 (90%)	4319
+cell type astrocyte (n datasets=6)	>=6 of 6 (100%)	4319
+cell type excitatory (n datasets=7)	>=4 of 7 (50%)	9758
+cell type excitatory (n datasets=7)	>=5 of 7 (70%)	8939
+cell type excitatory (n datasets=7)	>=7 of 7 (90%)	6495
+cell type excitatory (n datasets=7)	>=7 of 7 (100%)	6495
+cell type inhibitory (n datasets=7)	>=4 of 7 (50%)	9413
+cell type inhibitory (n datasets=7)	>=5 of 7 (70%)	8595
+cell type inhibitory (n datasets=7)	>=7 of 7 (90%)	6733
+cell type inhibitory (n datasets=7)	>=7 of 7 (100%)	6733
+cell type microglia (n datasets=7)	>=4 of 7 (50%)	5492
+cell type microglia (n datasets=7)	>=5 of 7 (70%)	4072
+cell type microglia (n datasets=7)	>=7 of 7 (90%)	2340
+cell type microglia (n datasets=7)	>=7 of 7 (100%)	2340
+cell type oligodendrocyte (n datasets=6)	>=3 of 6 (50%)	5866
+cell type oligodendrocyte (n datasets=6)	>=5 of 6 (70%)	3726
+cell type oligodendrocyte (n datasets=6)	>=6 of 6 (90%)	3001
+cell type oligodendrocyte (n datasets=6)	>=6 of 6 (100%)	3001
+cell type opc (n datasets=6)	>=3 of 6 (50%)	7865
+cell type opc (n datasets=6)	>=5 of 6 (70%)	5337
+cell type opc (n datasets=6)	>=6 of 6 (90%)	4283
+cell type opc (n datasets=6)	>=6 of 6 (100%)	4283
+dataset-level union over cell types (7 datasets)	>=4 of 7 (50%)	11462
+dataset-level union over cell types (7 datasets)	>=5 of 7 (70%)	10508
+dataset-level union over cell types (7 datasets)	>=7 of 7 (90%)	8136
+dataset-level union over cell types (7 datasets)	>=7 of 7 (100%)	8136
+union of all 39 groups	any	16127

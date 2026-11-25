@@ -1,0 +1,18 @@
+{
+ "groups": 39,
+ "cells_total": 882527,
+ "subjects_rows": 1456,
+ "sc_repro_n": 216,
+ "sc_repro_mean_OR": 37.78363442595572,
+ "sc_repro_min_OR": 1.012474789394944,
+ "sbj_repro_mean_OR": 6.480624137924607,
+ "sbj_repro_min_OR": 0.7706926988325665,
+ "sbj_n_OR_le_1": 1,
+ "mean_group_delta_OR_sbj_minus_sc": -29.74816122366643,
+ "n_groups_delta": 39,
+ "preservation_n": 39,
+ "preservation_n_OR_gt_1": 37,
+ "preservation_mean_OR": 11.051091377105621,
+ "preservation_min_OR": 0.6073145842122022,
+ "preservation_mean_OR_of_gt1": 11.60730527760852
+}

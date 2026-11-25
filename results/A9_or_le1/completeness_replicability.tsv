@@ -1,0 +1,13 @@
+reference_level	cell_type	n_ordered_pairs	datasets	expected
+sbj	astrocyte	30	6	30
+sbj	excitatory	42	7	42
+sbj	inhibitory	42	7	42
+sbj	microglia	42	7	42
+sbj	oligodendrocyte	30	6	30
+sbj	opc	30	6	30
+sc	astrocyte	30	6	30
+sc	excitatory	42	7	42
+sc	inhibitory	42	7	42
+sc	microglia	42	7	42
+sc	oligodendrocyte	30	6	30
+sc	opc	30	6	30

@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store
+*.i32
+*.f64
+*.npy
+*.rds
+!code/original_pipeline/misc/*.rds
+# kept locally, not pushed (large; not needed to regenerate any figure, or public downloads)
+results/A1_matched_sample/results_S1.tsv
+results/A1_matched_sample/results_S2.tsv
+code/original_pipeline/misc/Generic_human_*.an.txt
+code/original_pipeline/misc/pro_GO.csv
+code/original_pipeline/misc/lau_celltypes.tsv

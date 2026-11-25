@@ -1,0 +1,5 @@
+# Supplementary Table 3. Agreement measures at the 1% threshold (source A5_prf_jaccard/results.tsv).
+Comparison	N comparisons	Mean OR	Mean precision	Mean recall	Mean F1	Mean Jaccard	Min Jaccard	Max Jaccard
+xCell replicability	216	37.78	0.1419	0.1766	0.1457	0.08451	0.004417	0.3833
+xSubject replicability	216	6.481	0.04332	0.05561	0.04532	0.02356	0.003703	0.09964
+xCell to xSubject preservation	39	11.05	0.08618	0.08618	0.08618	0.04588	0.00307	0.1242

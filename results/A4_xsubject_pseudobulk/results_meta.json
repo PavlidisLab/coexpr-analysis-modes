@@ -1,0 +1,10 @@
+{
+ "script": "/home/paul/xcell-xbulk-revision/lib/eric_compare.py",
+ "script_sha256": "9361453a177ead7d1d0f957d32a6e836bc6e23a42efc2e0413dda553b7435a35",
+ "timestamp": "2026-10-15T15:53:35.461309",
+ "n_rows": 6120,
+ "n_missing_jobs": 0,
+ "seed": "n/a (deterministic)",
+ "source": "Eric Chu 041_CH4_FINAL (R) saved matrices + raw counts exported from sc_exprmats_*.rds",
+ "engine": "lib/eric_engine.py (qlcMatrix corSparse formula)"
+}

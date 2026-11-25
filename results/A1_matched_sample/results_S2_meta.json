@@ -1,0 +1,9 @@
+{
+ "script": "/home/paul/xcell-xbulk-revision/lib/eric_a1_compare.py",
+ "script_sha256": "4df5fa753427b3eb39c80f2d6b2523eaed3efc4a37614b5194de41b8dfc07b27",
+ "timestamp": "2026-10-17T02:04:35.308213",
+ "seed": 20261015,
+ "draws": 50,
+ "scheme": "S2",
+ "lab_code": "Eric Chu R (reimplemented in lib/eric_engine.py)"
+}

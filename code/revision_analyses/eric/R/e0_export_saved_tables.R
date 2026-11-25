@@ -1,0 +1,6 @@
+suppressMessages(library(dplyr)); O <- "/space/scratch/ericchu/r_cache/041_CH4_FINAL/output/"; T <- path.expand("~/xcell-xbulk-revision/eric/tables/")
+w <- function(x, nm) write.table(as.data.frame(x), paste0(T, nm, ".tsv"), sep="\t", quote=FALSE, row.names=FALSE)
+w(readRDS(paste0(O,"sc_repro_fisher.rds"))$tbl, "saved_sc_repro_fisher"); w(readRDS(paste0(O,"sbj_repro_fisher.rds"))$tbl, "saved_sbj_repro_fisher")
+w(readRDS(paste0(O,"sc_sbj_preservation_fisher.rds"))$tbl, "saved_sc_sbj_preservation_fisher")
+b <- readRDS(paste0(O,"bk_repro_fisher.rds"))$tbl; w(b, "saved_bk_repro_fisher"); w(readRDS(paste0(O,"bk_preservation_fisher.rds"))$tbl, "saved_bk_preservation_fisher")
+w(readRDS(paste0(O,"sc_stats_ncells.rds")), "saved_sc_stats_ncells")

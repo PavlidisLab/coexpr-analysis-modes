@@ -1,0 +1,352 @@
+[
+ {
+  "dataset": "lau",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 7123,
+  "n_subset_genes": 271,
+  "sc_subjects": 21,
+  "sbj_subjects": 21
+ },
+ {
+  "dataset": "lau",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 10094,
+  "n_subset_genes": 927,
+  "sc_subjects": 21,
+  "sbj_subjects": 21
+ },
+ {
+  "dataset": "lau",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 9024,
+  "n_subset_genes": 584,
+  "sc_subjects": 21,
+  "sbj_subjects": 21
+ },
+ {
+  "dataset": "lau",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 6363,
+  "n_subset_genes": 177,
+  "sc_subjects": 20,
+  "sbj_subjects": 20
+ },
+ {
+  "dataset": "lau",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 5756,
+  "n_subset_genes": 229,
+  "sc_subjects": 21,
+  "sbj_subjects": 21
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 10019,
+  "n_subset_genes": 1285,
+  "sc_subjects": 32,
+  "sbj_subjects": 32
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 7541,
+  "n_subset_genes": 238,
+  "sc_subjects": 22,
+  "sbj_subjects": 22
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 11311,
+  "n_subset_genes": 2470,
+  "sc_subjects": 32,
+  "sbj_subjects": 32
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 8179,
+  "n_subset_genes": 868,
+  "sc_subjects": 29,
+  "sbj_subjects": 29
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 8203,
+  "n_subset_genes": 774,
+  "sc_subjects": 31,
+  "sbj_subjects": 31
+ },
+ {
+  "dataset": "lim",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 9396,
+  "n_subset_genes": 1062,
+  "sc_subjects": 29,
+  "sbj_subjects": 29
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 6151,
+  "n_subset_genes": 97,
+  "sc_subjects": 28,
+  "sbj_subjects": 28
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 8835,
+  "n_subset_genes": 509,
+  "sc_subjects": 35,
+  "sbj_subjects": 35
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 8494,
+  "n_subset_genes": 380,
+  "sc_subjects": 33,
+  "sbj_subjects": 33
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 4720,
+  "n_subset_genes": 40,
+  "sc_subjects": 21,
+  "sbj_subjects": 21
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 4882,
+  "n_subset_genes": 63,
+  "sc_subjects": 32,
+  "sbj_subjects": 32
+ },
+ {
+  "dataset": "nagy",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 5278,
+  "n_subset_genes": 101,
+  "sc_subjects": 30,
+  "sbj_subjects": 30
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 9168,
+  "n_subset_genes": 630,
+  "sc_subjects": 64,
+  "sbj_subjects": 64
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 13432,
+  "n_subset_genes": 3729,
+  "sc_subjects": 63,
+  "sbj_subjects": 63
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 11775,
+  "n_subset_genes": 1800,
+  "sc_subjects": 62,
+  "sbj_subjects": 62
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 6202,
+  "n_subset_genes": 220,
+  "sc_subjects": 64,
+  "sbj_subjects": 64
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 7995,
+  "n_subset_genes": 612,
+  "sc_subjects": 66,
+  "sbj_subjects": 66
+ },
+ {
+  "dataset": "pineda",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 9205,
+  "n_subset_genes": 806,
+  "sc_subjects": 65,
+  "sbj_subjects": 65
+ },
+ {
+  "dataset": "ramos",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 9344,
+  "n_subset_genes": 1357,
+  "sc_subjects": 34,
+  "sbj_subjects": 34
+ },
+ {
+  "dataset": "ramos",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 8790,
+  "n_subset_genes": 956,
+  "sc_subjects": 36,
+  "sbj_subjects": 36
+ },
+ {
+  "dataset": "ramos",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 6953,
+  "n_subset_genes": 443,
+  "sc_subjects": 26,
+  "sbj_subjects": 25
+ },
+ {
+  "dataset": "ramos",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 8161,
+  "n_subset_genes": 805,
+  "sc_subjects": 34,
+  "sbj_subjects": 34
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 5451,
+  "n_subset_genes": 156,
+  "sc_subjects": 42,
+  "sbj_subjects": 42
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 9327,
+  "n_subset_genes": 760,
+  "sc_subjects": 48,
+  "sbj_subjects": 48
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 7964,
+  "n_subset_genes": 337,
+  "sc_subjects": 47,
+  "sbj_subjects": 47
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 2862,
+  "n_subset_genes": 28,
+  "skipped": "too few genes"
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 3485,
+  "n_subset_genes": 85,
+  "sc_subjects": 48,
+  "sbj_subjects": 48
+ },
+ {
+  "dataset": "rosmap",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 6256,
+  "n_subset_genes": 230,
+  "sc_subjects": 37,
+  "sbj_subjects": 37
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "astrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 5628,
+  "n_subset_genes": 143,
+  "sc_subjects": 41,
+  "sbj_subjects": 41
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "excitatory",
+  "tag": "A3_high",
+  "n_group_genes": 13245,
+  "n_subset_genes": 2321,
+  "sc_subjects": 41,
+  "sbj_subjects": 41
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "inhibitory",
+  "tag": "A3_high",
+  "n_group_genes": 10934,
+  "n_subset_genes": 965,
+  "sc_subjects": 41,
+  "sbj_subjects": 41
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "microglia",
+  "tag": "A3_high",
+  "n_group_genes": 3716,
+  "n_subset_genes": 44,
+  "sc_subjects": 27,
+  "sbj_subjects": 27
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "oligodendrocyte",
+  "tag": "A3_high",
+  "n_group_genes": 4336,
+  "n_subset_genes": 123,
+  "sc_subjects": 39,
+  "sbj_subjects": 39
+ },
+ {
+  "dataset": "velmeshev",
+  "cell_type": "opc",
+  "tag": "A3_high",
+  "n_group_genes": 5930,
+  "n_subset_genes": 201,
+  "sc_subjects": 41,
+  "sbj_subjects": 41
+ }
+]

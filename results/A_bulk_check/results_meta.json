@@ -1,0 +1,19 @@
+{
+ "scripts": [
+  "export_saved_bulk.R",
+  "bulk_stages.R",
+  "bulk_corr.R",
+  "sc_dataset_corr.py"
+ ],
+ "inputs": {
+  "bk_exprmats_rosmap.rds": "a2c1121457c4300c4104ddcc83065114d6d8be177e54ef603483b03301cc4e7c",
+  "bk_exprmats_velmeshev.rds": "132b4cd9cc5b038eec037312181378ca6299e3a1543b1159b9006328adf3ddcf"
+ },
+ "source_files": [
+  "data/rosmap/ROSMAP_RNAseq_FPKM_gene.tsv",
+  "data/velmeshev/ASD_BULK.txt"
+ ],
+ "pipeline": "Eric Chu 041_CH4_FINAL (041_MAIN_01_exprmats.R lines ~380-504)",
+ "random": false,
+ "timestamp": "2026-10-16T20:53:44"
+}
